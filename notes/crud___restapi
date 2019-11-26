@@ -1,0 +1,9 @@
+CRUD
+
+CRUD is an acronym that means Create, Read, Update and Delete. It is used to describe the process of having your data persisted into a database. In this example you will be providing examples of Creating new data into the database and then Reading the data from the database.\
+
+
+
+Restful API
+
+A RESTful API is an application program interface that uses HTTP requests to GET, PUT, POST and DELETE data. We will be using an API to define when we add data to our database and when we read from the database.

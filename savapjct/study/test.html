@@ -1,0 +1,50 @@
+<html>
+   <head>   
+      <script type = "text/javascript">
+         
+            function over() {
+               alert("mouse over")
+            }            
+            function out() {
+               document.write ("Mouse Out");
+            }            
+         
+      </script>      
+   </head>
+   
+   <body>
+      <p>Bring your mouse inside the division to see the result:</p>      
+      <div   onmouseover = "over()">
+         <h2> This is inside the division over</h2>
+      </div>         
+      <div  onselect = "out()" >
+        <h2> This is inside the division out </h2>
+     </div>  
+   </body>
+</html>
+<!-- <html>
+   <head>   
+      <script type = "text/javascript">
+        
+            function validation() {
+                alert("The form was submitted");
+             var a=document.getElementById("txt").type
+             console.log(a)
+             if(a<10){
+                 return true
+
+             }
+             else
+               return false
+            }
+         //-->
+      <!-- </script>      
+   </head>
+   
+   <body>   
+      <form method = "POST" action = "sdf.html" onsubmit = "return validation()">
+       <input type="text" id="txt" class="sss">
+         <input type = "submit" value = "Submit" />
+      </form>      
+   </body>
+</html> -->
